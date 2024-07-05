@@ -72,7 +72,7 @@ const registerUser = asyncHandler( async(req, res) => {
         new ApiResponse(200, createdUser, "User created successfully")
     )
 }) 
-
+//  backend/src/controllers/user.controller.js
 const loginUser = asyncHandler(async(req, res) => {
     // get user details from frontend
     // validate them
